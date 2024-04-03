@@ -3,21 +3,18 @@ El grupo A esta formado por las mujeres con un nombre anterior a la M y los homb
 nombre posterior a la N y el grupo B por el resto. Escribir un programa que pregunte al usuario
 su nombre y sexo, y muestre por pantalla el grupo que le corresponde. */
 
-let letras = ["AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"]
 
-let nombre = "maria"
-let sexo = "f"
-
-for (let index = 0; index < letras.length; index++) {
-    for (let index = 0; index < nombre.length; index++) {
-        if(nombre[0]==letras[25] && sexo === "f"){
-        
+function grupo(nombre,sexo){
+    
+    if((nombre[0].toLowerCase() < 'm' && sexo ==='f') || (nombre[0].toLowerCase()>'n' && sexo ==='m')) {
+        grupo = 'A';
+    } else {
+        grupo = 'B';
     }
-
-
-    }
-
+    console.log(`Usted pertenece al grupo ${grupo}.`)
 }
+grupo('ramiro','f')
+
 
 
 
