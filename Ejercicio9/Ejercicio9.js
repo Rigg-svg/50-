@@ -8,8 +8,11 @@ let letras = ["AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"]
 let nombre = "maria"
 let sexo = "f"
 
-for (let index = 0; index < nombre.length; index++) {
-    if(nombre[0]=="m" && sexo === "f"){
+for (let index = 0; index < letras.length; index++) {
+    for (let index = 0; index < nombre.length; index++) {
+        if(nombre[0]==letras[25] && sexo === "f"){
+        
+    }
 
 
     }
