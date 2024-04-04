@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "Ejercicio1":"node Ejercicio1/Ejercicio1.js",
+    "Ejercicio2":"node Ejercicio2/Ejercicio2.js",
     "Ejercicio3":"node Ejercicio3/Ejercicio3.js",
+    "Ejercicio4":"node Ejercicio4/Ejercicio4.js",
     "Ejercicio5":"node Ejercicio5.js/Ejercicio5.js",
     "Ejercicio7":"node Ejercicio7/Ejercicio7.js",
     "Ejercicio9":"node Ejercicio9/Ejercicio9.js"
